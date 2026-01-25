@@ -49,32 +49,6 @@ Passionate about software development, data, and building real-world projects.
 
 <img src="https://skillicons.dev/icons?i=figma,obsidian" />
 
-
----
-
-## 🧪 Featured Projects
-
-<p align="center">
-  <a href="https://github.com/dallatIkes/ScryNet">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dallatIkes&repo=ScryNet&theme=dark&show_owner=true&hide_border=true" alt="ScryNet" width="100%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/dallatIkes/Second_Brain">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dallatIkes&repo=Second_Brain&theme=dark&show_owner=true&hide_border=true" alt="Second Brain" width="100%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/dallatIkes/Vanquished-Realm">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dallatIkes&repo=Vanquished-Realm&theme=dark&show_owner=true&hide_border=true" alt="Vanquished-Realm" width="100%" />
-  </a>
-</p>
-
-
-
-
 ---
 
 ## 📫 Get in Touch
