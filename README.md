@@ -29,7 +29,7 @@ Passionate about software development, data, and building real-world projects.
 
 ### 🎮 Game Development
 
-<img src="https://skillicons.dev/icons?i=unity,godot" />
+<img src="https://skillicons.dev/icons?i=unity,godot,unrealengine" />
 
 ---
 
@@ -41,7 +41,7 @@ Passionate about software development, data, and building real-world projects.
 
 ### 🛠 Tools & Platforms
 
-<img src="https://skillicons.dev/icons?i=docker,git,github,gitlab,npm,gradle,postman,vscode,visualstudio,discord,vite" />
+<img src="https://skillicons.dev/icons?i=docker,git,github,gitlab,npm,gradle,postman,vscode,visualstudio,discord,vite,jenkins" />
 
 ---
 
