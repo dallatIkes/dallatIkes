@@ -23,7 +23,7 @@ Passionate about software development, data, and building real-world projects.
 
 ### ⚙️ Frameworks & Libraries
 
-<img src="https://skillicons.dev/icons?i=react,svelte,tailwind,nodejs,pytorch" />
+<img src="https://skillicons.dev/icons?i=react,svelte,tailwind,nodejs,pytorch,fastapi" />
 
 ---
 
