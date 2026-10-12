@@ -353,6 +353,27 @@ body {
     margin-top: 6px;
 }
 
+/* Visually hidden but still present in the PDF text layer (for ATS parsing) */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Disable ligatures so "C++" is not extracted as "C +" */
+.tags,
+.exp-tech,
+.repo-stack {
+    font-variant-ligatures: none;
+    font-feature-settings: "liga" 0, "calt" 0;
+}
+
 /* ---------- EDUCATION (sidebar) ---------- */
 
 .edu-item+.edu-item {
