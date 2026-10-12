@@ -148,6 +148,10 @@ body {
     min-width: 0;
 }
 
+.sidebar {
+    gap: 8px;
+}
+
 .sidebar>.card:last-child,
 .main>.card:last-child {
     flex: 1;
@@ -331,7 +335,7 @@ body {
 /* ---------- TECH STACK (sidebar) ---------- */
 
 .stack-group+.stack-group {
-    margin-top: 11px;
+    margin-top: 5px;
 }
 
 .stack-label {
@@ -341,29 +345,51 @@ body {
     color: var(--text-secondary);
     text-transform: uppercase;
     letter-spacing: .03em;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .skillicons {
-    height: 30px;
+    height: 26px;
     display: block;
 }
 
 .skillicons+.skillicons {
-    margin-top: 6px;
+    margin-top: 4px;
 }
 
-/* Visually hidden but still present in the PDF text layer (for ATS parsing) */
+.stack-skill-tag {
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 3px;
+    padding: 2px 5px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--bg-secondary);
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: 7px;
+    line-height: 1.3;
+    white-space: nowrap;
+}
+
+.sidebar>.card:first-child .card-body {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Hidden text that still gets written to the PDF text layer */
 .sr-only {
     position: absolute;
     width: 1px;
     height: 1px;
-    margin: -1px;
-    padding: 0;
     overflow: hidden;
-    clip: rect(0 0 0 0);
     white-space: nowrap;
-    border: 0;
+    font-size: 8px;
+    color: var(--text);
+}
+
+.stack-group {
+    position: relative;
 }
 
 /* Disable ligatures so "C++" is not extracted as "C +" */
